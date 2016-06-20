@@ -1,6 +1,7 @@
 var base = new function () {
     // 初始化页面
-    this.init = function (m) {
+    this.init = function (m,w) {
+        $('#main').html(w);
         $('#layout_menus').html(m);
         return this;
     };

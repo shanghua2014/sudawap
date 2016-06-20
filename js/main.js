@@ -28,6 +28,10 @@ require.config({
 
 // 页面初始化
 require(["zepto", "zeptotouch"]);
-require(['text!../layout/menus.html', "util"], function (m, base) {
-    base.init(m);
+require([
+    'text!../layout/menus.html',
+    //'text!../layout/welcome.html',
+    'text!../layout/form.html',
+    "util"], function (m,w, base) {
+    base.init(m,w);
 });
