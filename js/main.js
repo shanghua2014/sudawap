@@ -46,7 +46,7 @@ require(["zepto", "zeptotouch"]);
 require([
     'text!../layout/menus.html',
     'text!../layout/welcome.html',
-    'text!../layout/live.html',
+    'text!../layout/vote.html',
     "util"], function (m, w, d, base) {
-    base.init(m, w);
+    base.init(m, d);
 });
