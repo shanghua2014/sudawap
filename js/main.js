@@ -21,6 +21,21 @@ require.config({
         'util': {
             deps: ['zepto'],
             exports: 'base'
+        },
+        'text!../layout/docs.html': {
+            deps: [
+                'css!../../../css/docs.css'
+            ]
+        },
+        'text!../layout/danmaku.html': {
+            deps: [
+                'css!../../../css/danmaku.css'
+            ]
+        },
+        'text!../layout/live.html': {
+            deps: [
+                'css!../../../css/live.css'
+            ]
         }
     }
 });
@@ -30,8 +45,8 @@ require.config({
 require(["zepto", "zeptotouch"]);
 require([
     'text!../layout/menus.html',
-    //'text!../layout/welcome.html',
-    'text!../layout/form.html',
-    "util"], function (m,w, base) {
-    base.init(m,w);
+    'text!../layout/welcome.html',
+    'text!../layout/live.html',
+    "util"], function (m, w, d, base) {
+    base.init(m, w);
 });

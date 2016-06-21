@@ -1,0 +1,19 @@
+.text {
+	font-family: 'Microsoft YaHei';
+	font-size: 36px;
+	position: absolute;
+}
+.textLive {
+	left: 66px;
+	top: 184px;
+}
+.btnEnter {
+	position: absolute;
+	left: 93px;
+	top: 443px;
+}
+.btnLiveBack {
+	position: absolute;
+	left: 93px;
+	top: 555px;
+}

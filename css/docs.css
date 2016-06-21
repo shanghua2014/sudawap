@@ -1,0 +1,45 @@
+.text {
+	font-family: 'Microsoft YaHei';
+	font-size: 36px;
+	position: absolute;
+}
+.textEmail {
+	left: 68px;
+	top: 208px;
+}
+.textDistributed {
+	left: 66px;
+	top: 184px;
+}
+.inputEmail {
+	width: 427px;
+	height: 70px;
+	font-size: 28px;
+	padding: 0px 28px;
+	position: absolute;
+	left: 79px;
+	top: 411px;
+
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.bgEmail {
+	position: absolute;
+	left: 42px;
+	top: 172px;
+}
+.btnGet {
+	position: absolute;
+	left: 42px;
+	top: 625px;
+}
+.btnGetAgain {
+	position: absolute;
+	left: 340px;
+	top: 568px;
+}
+.btnDocsBack {
+	position: absolute;
+	left: 56px;
+	top: 568px;
+}

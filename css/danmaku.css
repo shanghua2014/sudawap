@@ -1,0 +1,52 @@
+.text {
+	font-family: 'Microsoft YaHei';
+	font-size: 36px;
+	position: absolute;
+}
+.textHint {
+	left: 68px;
+	top: 145px;
+}
+.textThanks {
+	left: 204px;
+	top: 174px;
+}
+.bgDanmaku {
+	position: absolute;
+	left: 35px;
+	top: 202px;
+}
+.inputDanmaku {
+	width: 423px;
+	height: 312px;
+	padding: 14px 28px;
+	position: absolute;
+	left: 81px;
+	top: 235px;
+
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+
+	font-family: 'Microsoft YaHei';
+	font-size: 28px;
+}
+.btnSend {
+	position: absolute;
+	left: 71px;
+	top: 694px;
+}
+.btnRewrite {
+	position: absolute;
+	left: 328px;
+	top: 694px;
+}
+.btnSendAgain {
+	position: absolute;
+	left: 85px;
+	top: 355px;
+}
+.btnBack {
+	position: absolute;
+	left: 85px;
+	top: 468px;
+}
