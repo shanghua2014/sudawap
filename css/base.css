@@ -67,6 +67,65 @@ html,body{width:100%; height:100%; overflow: hidden; font-size:25px;}
 .signOn{width:380px;height:260px; text-align:center; margin:-130px 0 0 -190px;}
 .signOn div{font-size:45px; margin-top:110px;}
 
-.pageHidden {
-    display: none;
+.text { font-family: 'Microsoft YaHei'; position: absolute; }
+.textCenter { width: 100%; text-align: center; }
+.textBlack { color: black; }
+.pageHidden { display: none; }
+
+/*Vote*/
+.textVoteResult { font-size: 36px; left: 193px; top: 161px; }
+.textVoteEnd { font-size: 36px; left: 193px; top: 187px; }
+.textVoteNotStart { font-size: 36px; left: 111px; top: 187px; }
+.bgVote { position: absolute; left: 23px; top: 119px; }
+.vote-result-group {
+    position: absolute; left: 23px; top: 237px;
+    width: 592px; height: 378px;
 }
+.vote-result-item {
+    width: 100%; height: 27px;
+    padding: 18px 0px;
+    line-height: 27px;
+
+    border-bottom: dashed 2px #EEEEEE;
+}
+.vote-result-item:last-child {
+    border-bottom: none;
+}
+.vote-result-item-name {
+    text-align: right;
+    width: 132px;
+}
+.vote-result-progress-bg {
+    width: 388px;
+    height: 22px;
+    background-color: #EEEEEE;
+    margin-left: 144px;
+    margin-top: 5px;
+
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+}
+.vote-result-progress-fill {
+    height: 100%;
+    background-color: #FFA800;
+
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+}
+.btnVoteRefresh {position: absolute; left: 66px; top: 654px;}
+.btnVoteViewResult {position: absolute; left: 86px; top: 437px;}
+.btnVoteBack {position: absolute; left: 333px; top: 654px;}
+.btnVoteRefreshLong {position: absolute; left: 86px; top: 437px;}
+.btnVoteBackLong {position: absolute; left: 86px; top: 555px;}
+
+/*Lottery*/
+.lotteryGiftBox { position: absolute; left: 378px; top: 221px; }
+.textLotteryTitle { font-size: 36px; left: 62px; top: 52px; }
+.textLotteryLose { font-size: 36px; line-height: 61px; top: 389px; }
+.textLotteryWin { font-size: 36px; top: 383px; }
+.textLotteryWinContent { font-size: 36px; top: 444px; }
+.textLotteryWinStaff { font-size: 20px; top: 504px; }
+.btnLotteryRefresh { position: absolute; left: 72px; top: 620px; }
+.btnLotteryBackLong { position: absolute; left: 72px; top: 731px; }
+.btnLotteryBack { position: absolute; left: 167px; top: 653px; }
+.btnLotteryClose { position: absolute; left: 544px; top: 275px; }
