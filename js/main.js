@@ -2,8 +2,8 @@
 require.config({
     baseUrl : 'js',
     paths: {
-        "zepto" : "http://rm.sina.com.cn/minisite/publicweb/js/zepto.min.1.1.6",
-        "zeptotouch" : "http://rm.sina.com.cn/minisite/publicweb/js/zepto.touch.min",
+        "zepto" : "https://cdn.bootcss.com/zepto/1.1.7/zepto.min",
+        "zeptotouch" : "touch",
         "util" : 'util',
         "text" : 'text',
     },
